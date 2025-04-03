@@ -1,0 +1,170 @@
+
+body{
+  background-color: rgba(255, 255, 255, 0.856);
+  color: rgb(0, 0, 0);
+}
+
+
+.inicio{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+  font-size: 20px;
+color: #1414f5;
+  background:linear-gradient(to right, #5757F3, white);
+  border:2px solid #FFD700;
+
+
+}
+
+
+
+
+
+.img-fondo{
+  background-image: url(imagenes/fondo.jpeg);
+  background-size: cover; /* Ajusta la imagen para cubrir toda la sección */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-attachment: fixed; /* Fija la imagen de fondo */
+  height: 50vh; /* Altura completa de la ventana */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white; /* Texto en color blanco */
+  text-align: center;
+  padding: 20px;
+  border:2px solid #FFD700;
+
+
+}
+.nosotros {
+  display: flex; /* Activa flexbox */
+  align-items: center; /* Alinea verticalmente */
+  gap: 20px; /* Espacio entre el texto y la imagen */
+  padding: 20px;
+
+}
+
+.contenido-nosotros {
+  display: flex;
+  flex-direction: column; /* Organiza los elementos en columna */
+  gap: 10px; /* Espacio entre el título y el párrafo */
+  max-width: 60%; /* Ajusta el ancho del texto */
+}
+
+.nosotros img {
+  max-width: 35%; /* Ajusta el tamaño de la imagen */
+  height: auto; /* Mantiene la proporción */
+}
+
+.nosotros h2 {
+  text-align: left; /* Alinea el título a la izquierda */
+  margin: 0; /* Elimina márgenes adicionales */
+}
+.servicios ul{ 
+  text-align:initial;
+  list-style-position:inside;
+align-content: center;
+padding:after;
+
+}
+
+footer{ 
+   border: 2px solid #FFD700; /* Grosor, tipo y color */
+   background-color: #5757f3; color: white; padding: 20px;
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+.formulario{
+  text-align: center;
+  padding: 30px;
+  color:#5757f3;
+  margin: 10px;
+  padding: 20px;
+}
+
+.nosotrostitulo{
+  text-align: center;
+}
+li{
+  list-style: none;
+
+}
+li::before{
+  content: "✓"; 
+  margin: 10px;
+  color:#5757f3;
+  font-size: 24px; 
+}
+.titulo23{
+  color:#5757f3;
+  text-align: center;
+}
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: white;
+  width: 50px; 
+  height: 50px; 
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px; 
+  text-decoration: none;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease-in-out;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+  background-color: #1EBE5D;
+}
+.social-links {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-links a {
+  font-size: 40px;
+  color: white;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Colores de cada red social */
+.facebook {
+  background-color: #1877F2;
+}
+
+.twitter {
+  background-color: #000; /* X (Twitter) es negro ahora */
+}
+
+.instagram {
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+
+/* Efecto hover */
+.social-links a:hover {
+  transform: scale(1.1);
+}
+.border-unico{
+  border:2px solid black;
+}
